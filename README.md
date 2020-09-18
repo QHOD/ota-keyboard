@@ -30,10 +30,12 @@ The keyboard includes the following special characters.
 
 ## Installation
 
-1. Use the provided windows installer files.
+1. Use the provided windows installer files (see [Releases](https://github.com/QHOD/ota-keyboard/releases)).
 2. In Windows Settings, add Turkish as a Language. 
-3. Select Turkish/Türkce Language > Options and add Keyboard from the list
+3. Select Turkish/Türkce Language > Options and add Keyboard from the list as in 
+![Windows 10 settings screenshot](keyboard-settings-IJMES.png "Screenshot")
 4. Type ahead. 
+5. If it does not work, try rebooting Windows.
 
 
 ## Customization 
