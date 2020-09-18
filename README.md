@@ -15,7 +15,12 @@ In the Alt-Gr/Alt-Cmd/Right-Alt shift state, we add *dead keys*:
 - <kbd>Alt-Gr</kbd> + <kbd>.</kbd>: Combining dot above (works with HhSsTtZz) 
 - <kbd>Alt-Gr</kbd> + <kbd>-</kbd>: Combining macron below (works with NnZz). **Note**: As MSKLC is not able to create combined characters that do not have a single codepoint in Unicode, S̠s̠ has to be typed as <kbd>S</kbd> + <kbd>Alt-Gr</kbd> + <kbd>-</kbd> + <kbd>space</kbd>
 
-## Coverage
+And normal keys
+
+- <kbd>Alt-Gr</kbd> + <kbd>#</kbd> for <kbd>ʿ</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>#</kbd> for <kbd>ʾ</kbd>
+
+## Glyph coverage
 
 The keyboard includes the following special characters. 
 
