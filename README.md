@@ -54,3 +54,7 @@ Using MS Keyboard Layout Creator:
 3. Open the `ijmes.klc` file and change it until it suits your needs. 
 4. Recompile the `.dll` (likely you will have to uninstall the previous version to avoid naming clash)
 
+
+
+[![DOI](https://zenodo.org/badge/296548770.svg)](https://zenodo.org/badge/latestdoi/296548770)
+
