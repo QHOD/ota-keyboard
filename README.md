@@ -20,6 +20,11 @@ And normal keys
 - <kbd>Alt-Gr</kbd> + <kbd>#</kbd> for <kbd>ʿ</kbd>
 - <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>#</kbd> for <kbd>ʾ</kbd>
 
+As some applications already use this keyboard position for other purposes, the ʿ and ʾ letters are additionally available as 
+
+- <kbd>Alt-Gr</kbd> + <kbd>m</kbd> for <kbd>ʿ</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>m</kbd> for <kbd>ʾ</kbd>
+
 ## Glyph coverage
 
 The keyboard includes the following special characters. 
