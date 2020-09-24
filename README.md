@@ -5,7 +5,7 @@ Repo for a Windows input method for ottoman turkish ota-TR keyboard for the QHOD
 
 Keyboard created for the transcription of Ottoman sources using the IJMES transcription tables for Windows.
 
-Behaviour is derived from the standard tr-TR QWERTY Turkish keyboard.
+The input method is derived from the standard tr-TR QWERTY Turkish keyboard, with a few additions accessible via combinations with the Right-Alt <kbd>Alt-Gr</kbd> key to add diacritics (glyph coverage see below).
 
 ![MSKLC screenshot of IJMES Keyboard](ijmes.png "Screenshot")
 
@@ -17,8 +17,8 @@ In the Alt-Gr/Alt-Cmd/Right-Alt shift state, we add *dead keys*:
 
 And normal keys
 
-- <kbd>Alt-Gr</kbd> + <kbd>#</kbd> for <kbd>ʿ</kbd>
-- <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>#</kbd> for <kbd>ʾ</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>ä</kbd> for <kbd>ʿ</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>ä</kbd> for <kbd>ʾ</kbd>
 
 As some applications already use this keyboard position for other purposes, the ʿ and ʾ letters are additionally available as 
 
@@ -41,9 +41,12 @@ The keyboard includes the following special characters.
 ## Installation
 
 1. Use the provided windows installer files (see [Releases](https://github.com/QHOD/ota-keyboard/releases)).
-2. In Windows Settings, add Turkish as a Language. 
+2. In Windows Settings (Languages > Region), add Turkish as a Language. 
+![Windows 10 settings screenshot](win_einstellungen.png "Screenshot")
 3. Select Turkish/Türkce Language > Options and add Keyboard from the list as in 
 ![Windows 10 settings screenshot](keyboard-settings-IJMES.png "Screenshot")
+4. Select the IJMES keyboard using the input method selection in Windows’ menu bar as in 
+![Windows 10 settings screenshot](win_sprachmenu.png "Screenshot")
 4. Type ahead. 
 5. If it does not work, try rebooting Windows.
 
