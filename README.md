@@ -25,6 +25,9 @@ As some applications already use this keyboard position for other purposes, the 
 - <kbd>Alt-Gr</kbd> + <kbd>m</kbd> for <kbd>ʿ</kbd>
 - <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>m</kbd> for <kbd>ʾ</kbd>
 
+**Caveat**: Due to strange behaviour on Windows 10’s side, the <kbd>CapsLock</kbd> is not working in combination with the combining macron keys derived from <kbd>Alt-Gr</kbd> + <kbd>-</kbd>. So, if you want to type ẔẕṈṉ or just ̱ : avoid <kbd>CapsLock</kbd>. 
+
+
 ## Glyph coverage
 
 The keyboard includes the following special characters. 
