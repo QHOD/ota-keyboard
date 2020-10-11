@@ -58,10 +58,10 @@ The keyboard includes the following special characters.
 
 Using MS Keyboard Layout Creator: 
 
-1. Get MSKLC.exe from the interwebs.
-2. Try if it works
-    a. You're fine.
-    b. You have to install the ancient .NET 2.0 framework. [Useful info on how to do this](https://www.windows-faq.de/2016/10/30/net-framework-2-0-und-3-5-unter-windows-10-installieren/) (in German)
+1. Get MSKLC.exe from the interwebs, e.g. from <a href="https://www.microsoft.com/en-us/download/details.aspx?id=102134">Microsoft</a>.
+2. Try if it works  
+    a. You're fine.  
+    b. You have to install the ancient .NET 2.0 framework. [Useful info on how to do this](https://www.windows-faq.de/2016/10/30/net-framework-2-0-und-3-5-unter-windows-10-installieren/) (in German)  
 3. Open the `ijmes.klc` file and change it until it suits your needs. 
 4. Recompile the `.dll` (likely you will have to uninstall the previous version to avoid naming clash)
 
