@@ -70,8 +70,8 @@ Using MS Keyboard Layout Creator:
 ## Notes on porting the ota-keyboard to Linux
 
 - <https://coffeeplusplus.z11.de/klc2xmodmap/xmodmap2.php> offers a php scritp to convert from klc to xmodmap, but this does not include dead keys (which would be crucial to this particular keyboard). 
-- <http://linux.lsdev.sil.org/wiki/index.php/Conversion_from_Microsoft_KLC> shows the necessary steps to go from `klc` to `xdb` with a suggestion for a regex based solution
-- <https://github.com/alexriss/keyboard-layout-converter> provides a Python converter
+- <http://linux.lsdev.sil.org/wiki/index.php/Conversion_from_Microsoft_KLC> shows the necessary steps to go from `klc` to `xdb` with a suggestion for a regex based solution, which is implemented in 
+- <https://github.com/alexriss/keyboard-layout-converter> a Python converter based on this regex. Both do not include dead keys, either. 
 
 
 [![DOI](https://zenodo.org/badge/296548770.svg)](https://zenodo.org/badge/latestdoi/296548770)
