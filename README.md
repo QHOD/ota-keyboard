@@ -62,6 +62,8 @@ Using MS Keyboard Layout Creator:
 2. Try if it works  
     a. You're fine.  
     b. You have to install the ancient .NET 2.0 framework. [Useful info on how to do this](https://www.windows-faq.de/2016/10/30/net-framework-2-0-und-3-5-unter-windows-10-installieren/) (in German)  
+    **Hint:** To my experience, MSLKC.exe runs just fine under Wine, if you need to do this under a non-Windows Operating System.  
+    To this end: i. unpack the "outer" MSKLC.exe self extracting archive, ii. run setup.exe to install, iii. run MSKLC.exe from where you installed it.
 3. Open the `ijmes.klc` file and change it until it suits your needs. 
 4. Recompile the `.dll` (likely you will have to uninstall the previous version to avoid naming clash)
 
