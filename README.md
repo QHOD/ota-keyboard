@@ -67,11 +67,22 @@ Using MS Keyboard Layout Creator:
 3. Open the `ijmes.klc` file and change it until it suits your needs. 
 4. Recompile the `.dll` (likely you will have to uninstall the previous version to avoid naming clash)
 
-## Notes on porting the ota-keyboard to Linux
+## Notes on porting the ota-keyboard to other operating systems (Linux, Mac)
+
+I tried to implement this in a cross-platform manner at first using [Keyman](https://keyman.com/) but was unsuccessful.
+
+### Linux
 
 - <https://coffeeplusplus.z11.de/klc2xmodmap/xmodmap2.php> offers a php scritp to convert from klc to xmodmap, but this does not include dead keys (which would be crucial to this particular keyboard). 
 - <http://linux.lsdev.sil.org/wiki/index.php/Conversion_from_Microsoft_KLC> shows the necessary steps to go from `klc` to `xdb` with a suggestion for a regex based solution, which is implemented in 
 - <https://github.com/alexriss/keyboard-layout-converter> a Python converter based on this regex. Both do not include dead keys, either. 
+
+### Mac
+
+If anyone is able to port this to [Ukelele](https://software.sil.org/ukelele/), it should not be a big problem. No Mac available here. 
+
+
+
 
 
 [![DOI](https://zenodo.org/badge/296548770.svg)](https://zenodo.org/badge/latestdoi/296548770)
