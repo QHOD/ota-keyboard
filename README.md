@@ -14,6 +14,7 @@ In the Alt-Gr/Alt-Cmd/Right-Alt shift state, we add *dead keys*:
 - <kbd>Alt-Gr</kbd> + <kbd>,</kbd>: Combining dot below (works with HhKkSsTtZz) 
 - <kbd>Alt-Gr</kbd> + <kbd>.</kbd>: Combining dot above (works with HhSsTtZz) 
 - <kbd>Alt-Gr</kbd> + <kbd>-</kbd>: Combining macron below (works with NnZz). **Note**: As MSKLC is not able to create combined characters that do not have a single codepoint in Unicode, S̠s̠ has to be typed as <kbd>S</kbd> + <kbd>Alt-Gr</kbd> + <kbd>-</kbd> + <kbd>space</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>l</kbd>: Combining macron above (works with AaEeİIiıOoUuYy)
 
 And normal keys
 
@@ -39,6 +40,7 @@ The keyboard includes the following special characters.
 ṠṡṢṣ̠Ss̠
 ṪṫṬṭ  
 ŻżẒẓ̠Z̠z̠  
+ĀāĒēĪīŌōŪūȲȳīĪ  
 
 
 ## Installation
@@ -62,7 +64,7 @@ Using MS Keyboard Layout Creator:
 2. Try if it works  
     a. You're fine.  
     b. You have to install the ancient .NET 2.0 framework. [Useful info on how to do this](https://www.windows-faq.de/2016/10/30/net-framework-2-0-und-3-5-unter-windows-10-installieren/) (in German)  
-    **Hint:** To my experience, MSLKC.exe runs just fine under Wine, if you need to do this under a non-Windows Operating System.  
+    **Hint:** To my experience, MSKLC.exe runs just fine under Wine, if you need to do this under a non-Windows Operating System.  
     To this end: i. unpack the "outer" MSKLC.exe self extracting archive, ii. run setup.exe to install, iii. run MSKLC.exe from where you installed it.
 3. Open the `ijmes.klc` file and change it until it suits your needs. 
 4. Recompile the `.dll` (likely you will have to uninstall the previous version to avoid naming clash)
@@ -79,9 +81,12 @@ I tried to implement this in a cross-platform manner at first using [Keyman](htt
 
 ### Mac
 
-If anyone is able to port this to [Ukelele](https://software.sil.org/ukelele/), it should not be a big problem. No Mac available here. 
+If anyone is able to port this to [Ukelele](https://software.sil.org/ukelele/) or [Karabiner](https://karabiner-elements.pqrs.org/), it should not be a big problem. No Mac available here. 
 
+### Alternatives to ota-keyboard
 
+- A similar effort with slightly different key bindings and transcription alphabet is available from <http://www.oncu.com/osmtransklavye/>. They do not publish the source `.klc` files, yet offer variants for both the Turkish Q and F keyboards – Windows only as they use the same MSKLC tool. 
+- Consider using web based entry methods such as, e.g. <https://www.lexilogos.com/keyboard/ottoman_turkish.htm> or <http://www.umich.edu/~turkish/links/keyboard/klavye.htm>. 
 
 
 
