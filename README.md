@@ -11,10 +11,10 @@ The input method is derived from the standard tr-TR QWERTY Turkish keyboard, wit
 
 In the Alt-Gr/Alt-Cmd/Right-Alt shift state, we add *dead keys*: 
 
-- <kbd>Alt-Gr</kbd> + <kbd>,</kbd>: Combining dot below (works with HhKkSsTtZz) 
-- <kbd>Alt-Gr</kbd> + <kbd>.</kbd>: Combining dot above (works with HhSsTtZz) 
-- <kbd>Alt-Gr</kbd> + <kbd>-</kbd>: Combining macron below (works with NnZz). **Note**: As MSKLC is not able to create combined characters that do not have a single codepoint in Unicode, S̠s̠ has to be typed as <kbd>S</kbd> + <kbd>Alt-Gr</kbd> + <kbd>-</kbd> + <kbd>space</kbd>
-- <kbd>Alt-Gr</kbd> + <kbd>l</kbd>: Combining macron above (works with AaEeİIiıOoUuYy)
+- <kbd>Alt-Gr</kbd> + <kbd>,</kbd>: Combining dot below ( ̣, works with HhKkSsTtZz) 
+- <kbd>Alt-Gr</kbd> + <kbd>.</kbd>: Combining dot above ( ̇, works with HhSsTtZz) 
+- <kbd>Alt-Gr</kbd> + <kbd>-</kbd>: Combining macron below ( ̱, works with NnZz). **Note**: As MSKLC is not able to create combined characters that do not have a single codepoint in Unicode, S̠s̠ has to be typed as <kbd>S</kbd> + <kbd>Alt-Gr</kbd> + <kbd>-</kbd> + <kbd>space</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>l</kbd>: Combining macron above ( ̄, works with AaEeİIiıOoUuYy) 
 
 And normal keys
 
