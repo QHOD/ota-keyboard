@@ -92,11 +92,13 @@ I tried to implement this in a cross-platform manner at first using [Keyman](htt
 
 If anyone is able to port this to [Ukelele](https://software.sil.org/ukelele/) or [Karabiner](https://karabiner-elements.pqrs.org/), it should not be a big problem. No Mac available here. 
 
+As an alternative that provides a superset of the IJMES character support, see https://www.uni-heidelberg.de/fakultaeten/philosophie/ori/semitistik/seeger_semicode.html
+
 ### Alternatives to ota-keyboard
 
 - A similar effort with slightly different key bindings and transcription alphabet is available from <http://www.oncu.com/osmtransklavye/>. They do not publish the source `.klc` files, yet offer variants for both the Turkish Q and F keyboards – Windows only as they use the same MSKLC tool. 
 - Consider using web based entry methods such as, e.g. <https://www.lexilogos.com/keyboard/ottoman_turkish.htm> or <http://www.umich.edu/~turkish/links/keyboard/klavye.htm>. 
-
+- Also, cf. https://www.geschkult.fu-berlin.de/e/iranistik/links_instrumentalia/edv/tastaturlayouts/deutsch-orientalistik/index.html
 
 
 [![DOI](https://zenodo.org/badge/296548770.svg)](https://zenodo.org/badge/latestdoi/296548770)
