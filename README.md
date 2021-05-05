@@ -100,6 +100,7 @@ As an alternative that provides a superset of the IJMES character support, see h
 - Consider using web based entry methods such as, e.g. <https://www.lexilogos.com/keyboard/ottoman_turkish.htm> or <http://www.umich.edu/~turkish/links/keyboard/klavye.htm>. 
 - Also, cf. https://www.geschkult.fu-berlin.de/e/iranistik/links_instrumentalia/edv/tastaturlayouts/deutsch-orientalistik/index.html
 
+You may also consider using alternative transcription rulesets such as IA, EI, DMG. <https://www.isnadsistemi.org/guide/isnad2/akademik-yazim/25-ceviri-yazi-alfabesi-transkripsiyon/>.
 
 [![DOI](https://zenodo.org/badge/296548770.svg)](https://zenodo.org/badge/latestdoi/296548770)
 
