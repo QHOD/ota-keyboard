@@ -3,22 +3,23 @@ Repo for a Windows input method for ottoman turkish ota-TR keyboard for the QHOD
 
 ## About
 
-Keyboard created for the transcription of Ottoman sources using the IJMES transcription tables for Windows.
+Keyboard created for the transcription of Ottoman sources using the IJMES transcription tables for Windows. The keyboard can also be used for IA input as QhoD changed their main transcription ruleset to the *İslâm Ansiklopedisi* style.
 
-The input method is derived from the standard tr-TR QWERTY Turkish keyboard, with a few additions accessible via combinations with the Right-Alt <kbd>Alt-Gr</kbd> key to add diacritics (glyph coverage see below).
+The input method is derived from the standard tr-TR QWERTY Turkish keyboard, with a few additions accessible via combinations with the <kbd>Alt-Gr</kbd> key to add diacritics (glyph coverage see below).
 
 ![MSKLC screenshot of IJMES Keyboard](ijmes.png "Screenshot")
 
 In the Alt-Gr/Alt-Cmd/Right-Alt shift state, we add *dead keys*: 
 
 - <kbd>Alt-Gr</kbd> + <kbd>,</kbd>: Combining dot below ( ̣, works with HhKkSsTtZz) 
-- <kbd>Alt-Gr</kbd> + <kbd>.</kbd>: Combining dot above ( ̇, works with HhSsTtZz) 
+- <kbd>Alt-Gr</kbd> + <kbd>.</kbd>: Combining dot above ( ̇, works with GgHhSsTtZz) 
 - <kbd>Alt-Gr</kbd> + <kbd>-</kbd>: Combining macron below ( ̱, works with NnZz). **Note**: As MSKLC is not able to create combined characters that do not have a single codepoint in Unicode, S̠s̠ has to be typed as <kbd>S</kbd> + <kbd>Alt-Gr</kbd> + <kbd>-</kbd> + <kbd>space</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>-</kbd>: Combining breve below (The same key combo is used for Hh with breve below Ḫḫ)
 - <kbd>Alt-Gr</kbd> + <kbd>l</kbd>: Combining macron above ( ̄, works with AaEeİIiıOoUuYy) 
 
 And normal keys
 
-- <kbd>Alt-Gr</kbd> + <kbd>ä</kbd> for <kbd>ʿ</kbd>
+- <kbd>Alt-Gr</kbd> + <kbd>ä</kbd> for <kbd>ʿ</kbd> (<kbd>ä</kbd> German keyboard space where US has <kbd>'</kbd>)
 - <kbd>Alt-Gr</kbd> + <kbd>Shift</kbd> + <kbd>ä</kbd> for <kbd>ʾ</kbd>
 
 As some applications already use this keyboard position for other purposes, the ʿ and ʾ letters are additionally available as 
@@ -34,7 +35,7 @@ As some applications already use this keyboard position for other purposes, the 
 The keyboard includes the following special characters. 
 
 ʾʿ  
-ḢḣḤḥ  
+ĠġḢḣḤḥḪḫ  
 Ḳḳ  
 ̠Nn̠  
 ṠṡṢṣ̠Ss̠
@@ -100,7 +101,7 @@ As an alternative that provides a superset of the IJMES character support, see h
 - Consider using web based entry methods such as, e.g. <https://www.lexilogos.com/keyboard/ottoman_turkish.htm> or <http://www.umich.edu/~turkish/links/keyboard/klavye.htm>. 
 - Also, cf. https://www.geschkult.fu-berlin.de/e/iranistik/links_instrumentalia/edv/tastaturlayouts/deutsch-orientalistik/index.html
 
-You may also consider using alternative transcription rulesets such as IA, EI, DMG. <https://www.isnadsistemi.org/guide/isnad2/akademik-yazim/25-ceviri-yazi-alfabesi-transkripsiyon/>.
+You may also consider using alternative transcription rulesets such as [IA](https://islamansiklopedisi.org.tr/transkripsiyon_isaretleri), EI, DMG. <https://www.isnadsistemi.org/guide/isnad2/akademik-yazim/25-ceviri-yazi-alfabesi-transkripsiyon/>.
 
 [![DOI](https://zenodo.org/badge/296548770.svg)](https://zenodo.org/badge/latestdoi/296548770)
 
