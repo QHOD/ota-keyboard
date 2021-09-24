@@ -55,7 +55,7 @@ The keyboard includes the following special characters.
 4. Type ahead. 
 5. If it does not work, try rebooting Windows.
 
-### Updating / Customization using MSKLC when `ota-keyboard` is already installed
+### Updating / Uninstall / Customization using MSKLC when `ota-keyboard` is already installed
 
 If nothing else works (e.g. you get an error during re-installation that the IJMES keyboard is already installed), try a combination of the following: 
 
