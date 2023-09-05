@@ -93,6 +93,8 @@ I tried to implement this in a cross-platform manner at first using [Keyman](htt
 
 If anyone is able to port this to [Ukelele](https://software.sil.org/ukelele/) or [Karabiner](https://karabiner-elements.pqrs.org/), it should not be a big problem. No Mac available here. 
 
+Update 20230905: https://theoknights.github.io/keyboard/ offers a keyboard layout with the same goal.
+
 As an alternative that provides a superset of the IJMES character support, see https://www.uni-heidelberg.de/fakultaeten/philosophie/ori/semitistik/seeger_semicode.html
 
 ### Alternatives to ota-keyboard
@@ -100,6 +102,7 @@ As an alternative that provides a superset of the IJMES character support, see h
 - A similar effort with slightly different key bindings and transcription alphabet is available from <http://www.oncu.com/osmtransklavye/>. They do not publish the source `.klc` files, yet offer variants for both the Turkish Q and F keyboards – Windows only as they use the same MSKLC tool. 
 - Consider using web based entry methods such as, e.g. <https://www.lexilogos.com/keyboard/ottoman_turkish.htm> or <http://www.umich.edu/~turkish/links/keyboard/klavye.htm>. 
 - Also, cf. https://www.geschkult.fu-berlin.de/e/iranistik/links_instrumentalia/edv/tastaturlayouts/deutsch-orientalistik/index.html
+- Update 20230905: https://github.com/theoknights/ottomandiacspc/ is a Windows port of the Mac keyboard layout mentioned above
 
 You may also consider using alternative transcription rulesets such as [IA](https://islamansiklopedisi.org.tr/transkripsiyon_isaretleri), EI, DMG. <https://www.isnadsistemi.org/guide/isnad2/akademik-yazim/25-ceviri-yazi-alfabesi-transkripsiyon/>.
 
